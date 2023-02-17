@@ -1,0 +1,30 @@
+body{background-color: red;}
+div{
+
+    background-color:green;
+    width:100px;
+    height: auto; 
+    text-align: center;
+    margin: auto;
+    color: rgb(129, 7, 43);
+}
+div::after{
+    content: "its mobile view";
+}
+@media(min-width:900px){
+
+body{
+
+    background-color:green;
+}
+div{width: 100%;
+height: auto;
+background-color:red;
+color:greenyellow;
+text-align: center;
+margin:auto}
+div::after{
+    content: "its also working";
+}
+
+}

@@ -1,0 +1,35 @@
+div{
+    color: white;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+     animation-name: colorchange;
+     animation-duration: 10s;
+     animation-delay: 3s; 
+
+    }
+     
+@keyframes colorchange {
+    from { 
+        background-color: red; 
+        top: 0px;
+        left: 0px;
+        /* width: 30px;
+        height: 66px; */
+        
+
+    }
+    to {
+        background-color: green;
+        top: 0px;
+        left: 200px;
+        /* height: 100px;
+        width: 200px; */
+       
+
+    /* top left are no working */
+    
+    }
+
+    
+}

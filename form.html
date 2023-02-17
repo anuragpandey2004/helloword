@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>first form practice</legend>
+            <div>
+                <label for="name">Enter your name</label>
+                <!-- by te help of read only you can only read not change vlue -->
+                <input type="text" id="name" value="anurag" readonly />
+            </div>
+            <div>
+                <label for="age">Enter your age</label>
+                <!-- by the help of placeholder you show the type of data wich is enter in that box -->
+                <input type="number" id="age" min="18" placeholder="18" />
+
+            </div>
+            <div>
+                <label for="email">Please enter your valid email address</label>
+                <input type="email" id="email" placeholder="a@gmail.com">
+
+
+            </div>
+            <div>
+                <label for="mobile">Enter your mobile number</label>
+
+                <input type="text" name="" id="mobile" placeholder="8299584240" />
+            </div>
+            <!-- Enter yuor <b>present</b> address -->
+            <label for="address">Enter your <b>present</b> address</label>
+            <!-- <label for="address">Enter your local address</label> -->
+            <textarea name="" id="address" cols="30" rows="10"></textarea>
+
+            </div><br>
+            <input type="submit">
+        </fieldset>
+    </form>
+</body>
+
+</html>
